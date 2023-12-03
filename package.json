@@ -1,0 +1,30 @@
+{
+  "name": "b8a10-brandshop-server-side-nahid4306053",
+  "version": "1.0.0",
+  "description": "A brend Store",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "vercel-build": "echo hello"
+  },
+  "author": "MD Nahid Hasan",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "lamba": "^1.0.12",
+    "lodash": "^4.17.21",
+    "mongodb": "^6.1.0",
+    "netlify": "^13.1.10",
+    "nodemon": "^3.0.1",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^16.8.0"
+  }
+}
